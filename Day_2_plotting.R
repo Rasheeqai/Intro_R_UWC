@@ -113,7 +113,7 @@ ggplot(data = urine, aes(x = osmo, y = ph)) +
 ggplot(data = urine, aes(x = osmo, y = ph)) +
   geom_point(aes(colour = as.factor(r)))
 
-#
+
 
 
 
