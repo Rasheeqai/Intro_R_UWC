@@ -89,10 +89,17 @@ lam %>%
             max_bl = max(blade_length),
             n = n())
 
-lam_1 <- lam %>%
-  select(-region, -blade_weight, -blade_length, -blade_thickness, -stipe_mass, -stipe_length, -stipe_diameter, -digits, -thallus_mass, -total_length, -Ind) %>%
+total_length_half <- lam %>%
+  mutate(total_length_half = total_length / 2)%>% 
+  filter(total_length_half < 100)%>% 
+  select(site, total_length_half)
+
+lam %>%
+  group_by(site) %>%
+  filter(stipe_mass == max(stipe_mass)) %>% 
+  select(site, region, stipe_length)
   
-  
+  #create 3 graphs
   
 
 
