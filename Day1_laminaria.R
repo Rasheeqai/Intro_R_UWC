@@ -99,7 +99,7 @@ lam %>%
   filter(stipe_mass == max(stipe_mass)) %>% 
   select(site, region, stipe_length)
   
-  #create 3 graphs
+  #create
   
 
 

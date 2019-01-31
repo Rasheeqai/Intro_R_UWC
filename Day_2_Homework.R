@@ -113,11 +113,13 @@ iris_avrg_pl <- iris %>%
 lam <- read_csv("data/laminaria.csv")
 
 
-#
+#selecting sites and blade_length. Only using data between rows 54 to 74.
 lam_plot1 <- lam %>% 
   select(site, blade_length) %>%
   slice(54:74)
 
+
+#plotting a line graph
 lam_plot_1 <- ggplot(data = lam_plot1, aes(x = site, y = blade_length)) +
   geom_point(colour = "purple")+
   geom_line(colour = "red") +
@@ -126,15 +128,20 @@ lam_plot_1 <- ggplot(data = lam_plot1, aes(x = site, y = blade_length)) +
 
 
 
+#grouping sites and selecting only thtallus_mass
 lam_plot2 <- lam %>%
   group_by(site) %>% 
   select(site, thallus_mass)
 
+
+#plotting a linear model
 lam_plot_2 <- ggplot(data = lam_plot2, aes(x = site, y = thallus_mass)) +
   geom_point(colour = "blue")+
-  geom_line(colour = "purple") +
+  geom_smooth(colour = "purple") +
   labs(x = "site", y = "thallus_mass(g)") +
   ggtitle("Lamanaria_1")
+
+
   
   
   
