@@ -8,8 +8,8 @@
 #Read and Understand all work
 
 library(tidyverse)
-lam <- read_csv("data/laminaria.csv")
-save(lam,file = "data/laminaria.RData")
+lam <- read_csv("data/laminaria.csv") #import the laminaria data as a csv. file
+save(lam,file = "data/laminaria.RData") #then save it as a R.Data file 
 
 ??ggsn
 

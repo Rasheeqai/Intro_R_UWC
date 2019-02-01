@@ -10,10 +10,11 @@ library(tidyverse)
 chicks <- datasets::ChickWeight
 ??Chickweight
 
-#specifying dataset 
+# specifying dataset 
+# aes (control output for x and y)
 ggplot(data = chicks, aes(x = Time, y = weight))+
-  geom_point()+
-  geom_line(aes(group = Chick))
+  geom_point()+            #to make scatter plot
+  geom_line(aes(group = Chick)) 
 
 #don't have to specify data set already specified in previous coding
 ggplot(chicks, aes( x = Time, y = weight, colour = Diet)) +
@@ -123,5 +124,3 @@ ggplot(data = urine, aes(x = osmo, y = ph)) +
 #choose 3 data sets e.g. chicks <- datasets:: (datasets will pop up)
 #2 graphs per dataset (make a question from the graph= hypothesis)
 #of the 3 datasets mean of one column in those datasets
-
-Airpl <- datasets::AirPassengers

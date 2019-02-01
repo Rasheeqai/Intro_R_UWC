@@ -1,5 +1,5 @@
 #describe two packages (5 line paragraph) ggsn and scales
-#practice and explain ggsn and scales
+#practice and explain
 
 
 # Load libraries
