@@ -43,5 +43,9 @@ SACTN %>%
   filter(site == "Port Nolloth") # selected only one site
 
 
-
+# [A.A]
+# Neat script
+# Good commenting
+# Should try different things, make small changes to the code and see what its outcome is
+# Try new things
 

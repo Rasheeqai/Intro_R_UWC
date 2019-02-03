@@ -29,4 +29,9 @@ cp_2 <- cp_1 +
             size = 3, colour = "white") # Adjust appearance
 cp_2
 
+# [A.A]
+# Neat script
+# Script runs completely
+# Sufficient comments
+# Always good to play around with the functions in R and try different things other than the thigs taught in class
 

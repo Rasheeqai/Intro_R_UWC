@@ -142,7 +142,11 @@ lam_plot_2 <- ggplot(data = lam_plot2, aes(x = site, y = thallus_mass)) +
   ggtitle("Lamanaria_1")
 
 
-  
+# [A.A]
+# NIce graphs
+# added new features
+# Neat script, the graphs are however lacking hypothesis
+# THe visualisations were suppose to answer each of the hypothesis
   
   
   
