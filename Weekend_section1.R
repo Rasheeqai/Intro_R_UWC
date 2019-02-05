@@ -131,7 +131,7 @@ rast_feb_map3 <- rast_feb_map2 +
 rast_feb_map_final <- rast_feb_map3 +
   labs(x = "longitude", y = "latitude") + #adding/changing the x and y axis lables
   ggtitle("Rast_Feb_Map")       #adding a title to the map
-
+ 
 
 
 

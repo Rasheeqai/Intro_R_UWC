@@ -43,7 +43,7 @@ CO21 %>%
 
 CO2_select <- CO21 %>% # Tell R which dataframe we are using
   select(Type, conc) %>% # Select only specific columns
-  slice(4:17)  # Select specific rows
+  slice(4:17)  # Select specific rows 
 
 CO2_M <- CO2 %>%
   select(Type, uptake) %>%  #selecting 

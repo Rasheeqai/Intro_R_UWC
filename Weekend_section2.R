@@ -14,7 +14,7 @@
 # Determine the min and maximum frond length and stipe length
 # Determine the overall summary of the dataset
 
-#hypothesis for each graph
+#hypothesis for each graph 
 #summarise[calc mean, median, mode, var,sd] sd+var= se
 
 #loading library
