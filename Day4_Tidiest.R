@@ -15,7 +15,7 @@ rm(SACTNmonthly_v4.0)  # Remove the original loaded in dataset, keep data to a m
 # Calculate the mean temperature by depth
 SACTN_depth_mean <- SACTN %>% 
   group_by(depth) %>%   #grouping  depth together
-  summarise(mean_temp = mean(temp, na.rm = TRUE),
+  summarise(mean_temp = mean(temp, na.rm = TRUE),  #calculating the mean temperature
             count = n())
 SACTN_depth_mean
 

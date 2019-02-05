@@ -12,7 +12,7 @@ a+b # Here i am adding a to b
   mass <- 48              # mass? 48
 mass <- mass * 2.0      # mass? 
 age  <- 126             # age? 126
-age  <- age - 17        # age?
+age  <- age - 17       # age?
 mass_index <- mass/age  # mass_index? 
 
 #2. Use R to calculate some simple mathematical expressions entered.

@@ -72,7 +72,7 @@ lam %>%
 #ggplot found within tidyverse
 # aes (control output for x and y) 
 ggplot(data = lam, aes(x = stipe_mass, y = stipe_length)) +  
-  geom_point(shape = 21, colour = "salmon", fill = "white") +
+  geom_point(shape = 21, colour = "salmon", fill = "white") +   
   labs(x = "Stipe mass (kg)", y = "Stipe length (cm)")
 
 ## Exercise:
