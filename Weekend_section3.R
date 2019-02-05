@@ -52,7 +52,7 @@ SACTN2_tidy <- SACTN2 %>%
 
 
 
-
+ ss
 
 
 #Changing SACTN3- 2 columns into one column "depth" labelled SACTN3_tidy
