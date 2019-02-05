@@ -105,7 +105,11 @@ lam %>% # Tell R that we want to use the 'laminaria' dataframe
   #create
   
 
-
+# [A.A]
+# Very neat script
+# NIce commenting
+# Shhows a good understanding
+# Always good to try different things and play around with the R functions
   
 
 

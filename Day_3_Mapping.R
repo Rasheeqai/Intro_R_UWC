@@ -102,3 +102,8 @@ lam <- read_csv("data/laminaria.csv")
 save(laminaria, file= "data/laminaria.RData")
 
 
+# [A.A]
+# Scipt runs fully
+# Self made comments will be benificial when understnading/studying the code for the exam
+# A lot of these comments seems coppied and pasted
+# EXplore and explain what each line does in future scripts

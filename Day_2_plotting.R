@@ -124,3 +124,9 @@ ggplot(data = urine, aes(x = osmo, y = ph)) +
 #choose 3 data sets e.g. chicks <- datasets:: (datasets will pop up)
 #2 graphs per dataset (make a question from the graph= hypothesis)
 #of the 3 datasets mean of one column in those datasets
+
+#[A.A]
+# neat scrript
+# Lack of comments towards the end of the script
+# Could try new things
+# Script runs complete

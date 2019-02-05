@@ -41,7 +41,10 @@ SACTN4b_tidy <- SACTN4b %>%
 SACTN4_tidy <- left_join(SACTN4a_tidy, SACTN4b_tidy) 
 
 
-
+# [A.A]
+# Neat scripts
+# Script runs
+# NIcely done, good commenting throughut the script
 
 
 
