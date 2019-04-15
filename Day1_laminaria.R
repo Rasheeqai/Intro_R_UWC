@@ -56,10 +56,10 @@ lam %>%    # Tell R that we want to use the 'laminaria' dataframe
   mutate(se = sqrt(var_bl/n))         #mutate: add columns   # Calculate se
 
 lam_2 <- lam %>%
-  select(-blade_thickness, -blade_length)
+  select(-blade_thickness, -blade_length) #removing the blade_thickness and blade_length columns
 
 lam %>%
-  select(blade_length) %>%
+  select(blade_length) %>% #selecting blade length only
   na.omit %>%        #removing NA
   summarise(n = n()) # number of enteries (sample size)
 

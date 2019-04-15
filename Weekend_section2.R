@@ -37,7 +37,7 @@ eck_bould <- eck %>%
 eck %>%
   filter(frond_length == min(frond_length)) #selected the row with minimum frond length
 
-dim(eck) 
+dim(eck) #shows the amount of rows and columns
   
 line_graph <- ggplot(data= eck, aes(x = stipe_diameter, y = stipe_length)) +
   geom_point(colour = "deeppink2") +   #plotting points and add colour

@@ -17,7 +17,7 @@ Toothgrowth1 <- ToothGrowth %>%
 
 ToothGrowth1 <- ToothGrowth %>%
   ggplot(data = Toothgrowth1, aes(x = dose, y = mean_length, fill = supp)) +  #parent line
-  geom_col(aes(fill = supp), position = "dodge", colour = "black") +  #plotting the columns and using 
+  geom_col(aes(fill = supp), position = "dodge", colour = "black") +  #plotting the columns and using dodge so that it does not stack on each other
   geom_errorbar(aes(ymin = mean_length - sd_length,  # plotting the error bars using ymin= mean-sd
                     ymax = mean_length + sd_length),  #plotting error bars using ymax= mean+sd
                     position = "dodge") + 
