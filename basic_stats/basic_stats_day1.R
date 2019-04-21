@@ -285,6 +285,10 @@ vio4 <- ggplot(data = iris, aes(x = Species, y = Sepal.Length, colour = Species)
 ggarrange(vio1, vio2, vio3, vio4, ncol = 2, nrow = 2, labels = "AUTO")
 
 
+# Neat scripts
+# Nicely done
+# Good commenting but it is good to add info about the script at the top od the script
+# Good commenting, easy to keep track
 
 
 

@@ -154,6 +154,9 @@ rownames(People) <- c("gain", "loss")
 
 prop.test(People)
 
+# Double check the interpretation
+# good comments but better hypotheses could be proposed
+
 
 
 

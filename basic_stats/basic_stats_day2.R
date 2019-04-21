@@ -175,6 +175,9 @@ summary(aov(weight ~ Diet * as.factor(Time), data = filter(chicks, Time %in% c(1
 TukeyHSD(aov(weight ~ Diet * as.factor(Time), data = filter(chicks, Time %in% c(20, 21))))
 
 
+# Neat
+# Good comments throughout the script
+
 
 
 
