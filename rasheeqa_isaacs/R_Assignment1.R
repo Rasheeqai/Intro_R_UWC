@@ -1,6 +1,6 @@
 #Rasheeqa Isaacs
 #R_Assignment 
-#04 May 2019
+#13 May 2019
 
 #Picking a dataset
 library(help = "datasets")
@@ -19,7 +19,7 @@ library(ggthemes)
 library(vegan)
 
 #load dataset
-women_america <- read.csv("women.csv")
+women_america <- read.csv("rasheeqa_isaacs/women.csv")
 
 #Changing data from non-normal to normal data
 women_america <- decostand(women_america, "hellinger")
@@ -112,12 +112,12 @@ ggplot(data = women_america, aes(x = weight)) +   #selecting data and choosing t
   
 #creating a line graph visualising the data
 ggplot(data = women_america, aes(x = weight, y = height)) +
- geom_point(color = "deepskyblue2")+
-  geom_line(color = "deeppink")+
-  labs(x = "weight (lbs)", y = "height (in)") +
-  ggtitle("The weight of American women between ages 30-39") +
-  theme(legend.position = c(0.9, 0.2)) +
-  theme_new
+ geom_point(color = "deepskyblue2")+    #plotting data points and adding a colour
+  geom_line(color = "deeppink")+   #plotting line data and adding a colour
+  labs(x = "weight (lbs)", y = "height (in)") +    #adding labels
+  ggtitle("The weight of American women between ages 30-39") +   #adding a title to the graph
+  theme(legend.position = c(0.9, 0.2)) +   
+  theme_new      #added new theme
 
 #creating a bar graph to visualize the weight of individuals
 women_america1 <- data.frame(x = 1:15, y = 115:164)
